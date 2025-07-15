@@ -21,7 +21,8 @@
 
   .GridItem {
     background-color: pink;
-    padding: 15px;
-    margin: 2rem;
+    padding: 5rem 1rem ;
+    margin: 1rem;
+
   }
   `

@@ -9,7 +9,7 @@ const Home = () => {
     <Container>
       <GlobalStyles />
     <Title>Flawlessly Porcelain</Title>
-    <h1>✨ Flawlessly Porcelain Night cream.Pharmacist-Formulated Brightening & Corrective Cream ✨ Reveal Radiance. Restore Confidence.</h1>
+    <h1>✨ Flawlessly Porcelain Night cream. Pharmacist-Formulated Brightening & Corrective Cream ✨ Reveal Radiance. Restore Confidence.</h1>
     </Container>
     <IngredientsBenefits />
     </>

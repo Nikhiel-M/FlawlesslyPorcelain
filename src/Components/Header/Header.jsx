@@ -9,7 +9,7 @@ const Header = () => {
         <img src={logo} alt="Flawlessly Porcelain Logo" className="logo" />
         <nav className="nav"> 
           <ul className="nav-links">
-            <li>Ingredients & Benefits</li>
+            <li href="">Ingredients & Benefits</li>
             <li>Pricing</li>
             <li>Contact</li>
           </ul>

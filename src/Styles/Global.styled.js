@@ -5,8 +5,9 @@ import { createGlobalStyle } from "styled-components";
    box-sizing: border-box;
    margin: 0;
    padding: 0;
-  font-family: "Newsreader", serif;
+   font-family: "Newsreader", serif;
    font-weight: 300;
+   /* change font weight to 500 */
    font-style: normal;
    overflow-x: hidden;
 

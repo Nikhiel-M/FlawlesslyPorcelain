@@ -11,9 +11,9 @@ export const HeaderWrapper = styled.header`
   right: 0;
   left: 0;
   background-color: white;
-  /* border-bottom: black solid 1px;
-  box-shadow: 0 5px rgba(0, 0, 0, 0.2) ; */
-
+  border-bottom: black solid 1px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
   .logo {
     height: auto;
     width: auto;
@@ -22,7 +22,6 @@ export const HeaderWrapper = styled.header`
 
   .nav {
     display: flex;
-    
   }
   .nav-links {
     display: flex;
@@ -33,6 +32,12 @@ export const HeaderWrapper = styled.header`
     font-size: 2rem;
     color: ${(props) => props.theme.colors.text};
     cursor: pointer;
+  }
+
+  .nav-links > li {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
   }
 
   .nav-links > li:hover {
