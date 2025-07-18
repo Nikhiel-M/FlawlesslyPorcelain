@@ -3,7 +3,7 @@ import { Container, GridContainer } from "./IngredientsBenefits.styled";
 
 const IngredientsBenefits = () => {
   return (
-    <Container id="IngredientsBenefits">
+    <Container>
       <Title>🔬 Star Ingredients & Their Proven Benefits.</Title>
       <GridContainer>
         <div className="GridItem">
