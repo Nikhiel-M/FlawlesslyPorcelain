@@ -10,7 +10,7 @@ import { createGlobalStyle } from "styled-components";
    /* change font weight to 500 */
    font-style: normal;
    overflow-x: hidden;
-
+   outline: none;
  }
 
  body {

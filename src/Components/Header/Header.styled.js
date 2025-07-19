@@ -14,6 +14,7 @@ export const HeaderWrapper = styled.header`
   border-bottom: black solid 1px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   overflow: hidden;
+  outline: none;
 
   .logo {
     display: flex;
@@ -58,6 +59,7 @@ export const HeaderWrapper = styled.header`
    padding: 0 0.5rem;
     display: flex;
     flex-direction: row;
+    outline: none;
 
     .nav-links {
       display: flex;
@@ -75,6 +77,7 @@ export const HeaderWrapper = styled.header`
     @media (max-width: 480px) {
     display: flex;
     flex-direction: row;
+    outline: none;
     
 
     .nav-links {
