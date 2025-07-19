@@ -18,19 +18,14 @@ const Pricing = () => {
 
       <Subtitle className="contact">Contatct us on Whatsapp </Subtitle>
       <a
-        href="https://wa.me/27760189613/?text=I'm%20interested%20in%20your%20product%20for%20sale."
-        aria-label="Chat on WhatsApp"
-        onClick={(e) => {
-          e.preventDefault();
-          window.open(
-            "https://wa.me/27760189613/?text=I'm%20interested%20in%20your%20product%20for%20sale.",
-            "_blank",
-            "noopener,noreferrer"
-          );
-        }}
-      >
-        <FaWhatsappSquare className="whatsapp" />
-      </a>
+  href="https://wa.me/27760189613/?text=I'm%20interested%20in%20your%20product%20for%20sale."
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Chat on WhatsApp"
+>
+  <FaWhatsappSquare className="whatsapp" />
+</a>
+
     </Container>
   );
 };
