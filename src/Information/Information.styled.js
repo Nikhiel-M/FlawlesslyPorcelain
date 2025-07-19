@@ -25,4 +25,20 @@
     margin: 1rem;
 
   }
+
+      @media (max-width: 780px) {
+    grid-template-columns: 1fr 1fr;
+    .GridItem {
+      padding: 2rem 0.5rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr;
+    
+    .GridItem {
+      padding: 1rem 0.25rem;
+      margin: 0.5rem 0;
+    }
+  }
 `

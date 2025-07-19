@@ -20,4 +20,28 @@ export const Container = styled.div`
   .homeTitle {
     color: orange;
   }
+
+    @media (max-width: 1350px) {
+    background-size: cover;
+    margin-top: 10vh;
+    height: auto;
+    min-height: 80vh;
+    padding: 0 1rem;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+    .homeTitle {
+      font-size: 2rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+        background-repeat: no-repeat;
+    background-position: center;
+
+    .homeTitle {
+      font-size: 1.5rem;
+    }
+  }
 `;

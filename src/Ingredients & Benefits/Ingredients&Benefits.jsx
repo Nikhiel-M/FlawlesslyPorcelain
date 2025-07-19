@@ -27,7 +27,7 @@ const IngredientsBenefits = () => {
           <Subtitle>Enhances the penetration of active ingredients. Keeps the skin deeply hydrated and smooth. Supports barrier repair and moisture retention.</Subtitle>
         </div>
         <div className="GridItem">
-          <Title>Niacinamide(Vitamin B3)</Title>
+          <Title>Niacinamide</Title>
           <Subtitle>Visibly improves uneven skin tone and dullness. Minimizes the appearance of pores and fine lines. Strengthens the skin barrier and boosts resilience.</Subtitle>
         </div>
       </GridContainer>
