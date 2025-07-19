@@ -11,7 +11,12 @@ import { createGlobalStyle } from "styled-components";
    font-style: normal;
    overflow-x: hidden;
    outline: none;
+   
  }
+
+ .gooey-selected {
+  -webkit-tap-highlight-color: transparent;
+}
 
  body {
   background-color: ${(props) => props.theme.colors.primary };
