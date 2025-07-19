@@ -63,6 +63,9 @@ export const HeaderWrapper = styled.header`
     display: flex;
     flex-direction: row;
     outline: none;
+    padding: 0;
+
+
     .gooey-selected {
       -webkit-tap-highlight-color: transparent;
     }
@@ -72,6 +75,7 @@ export const HeaderWrapper = styled.header`
       flex-direction: row;
       font-size: 1.4rem;
       gap: 0.7rem;
+     
     }
 
     .logo img {
@@ -84,6 +88,7 @@ export const HeaderWrapper = styled.header`
     display: flex;
     flex-direction: row;
     outline: none;
+    padding: 0;
 
     .gooey-selected {
       -webkit-tap-highlight-color: transparent;
@@ -93,6 +98,8 @@ export const HeaderWrapper = styled.header`
       display: flex;
       flex-direction: row;
       font-size: 0.9rem;
+      gap: 0;
+      margin-left: 0.4rem;
     }
 
     .logo img {
