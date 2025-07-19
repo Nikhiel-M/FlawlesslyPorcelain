@@ -1,18 +1,22 @@
-import {  HeaderWrapper } from "./Header.styled";
-import logo from "../../Assets/Flawlessly-porclien-cut.jpg"
-
-
+import { HeaderWrapper } from "./Header.styled";
+import logo from "../../Assets/Flawlessly-porclien-cut.jpg";
 
 const Header = () => {
   return (
     <HeaderWrapper>
-        <img src={logo} alt="Flawlessly Porcelain Logo" className="logo" />
-        <nav className="nav"> 
-          <ul className="nav-links">
-            <li href="">Ingredients & Benefits</li>
-            <li>Pricing & Contact</li>
-          </ul>
-        </nav>
+   
+     <a href="#home" className="logo">   <img src={logo} alt="Flawlessly Porcelain Logo" /></a>
+    
+      <nav className="nav">
+        <ul className="nav-links">
+          <li>
+            <a href="#ingredients-benefits">Ingredients & Benefits</a>
+          </li>
+          <li>
+            <a href="#pricing-contact">Pricing & Contact</a>
+          </li>
+        </ul>
+      </nav>
     </HeaderWrapper>
   );
 };

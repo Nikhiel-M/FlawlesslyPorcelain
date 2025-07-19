@@ -1,7 +1,6 @@
- import styled from "styled-components";
+import styled from "styled-components";
 
-  
- export const Container = styled.div`
+export const Container = styled.div`
  display: flex;
  justify-content: center;
  align-items: center;
@@ -16,11 +15,21 @@
     font-size: 4rem;
     fill: #25d366;
     cursor: pointer;
+    margin-top: 0.5rem;
   }
+   
+  .whatsapp:hover {
+    fill: #47e480ff;
+    transition: fill 0.1s ease-in-out;
 
   .contact{
     display: flex;
     align-items: center;
     margin-top: 1rem;
+  }
+    .quantity{
+        margin: 0 0 1rem 0;
+    }
+    
   }
   `

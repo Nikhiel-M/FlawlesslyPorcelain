@@ -16,6 +16,10 @@ import { createGlobalStyle } from "styled-components";
  body {
   background-color: ${(props) => props.theme.colors.primary };
  }
+
+ html {
+  scroll-behavior: smooth;
+}
 `;
 
  

@@ -16,4 +16,8 @@ export const Container = styled.div`
   padding: 0 2rem;
   text-align: center;
   margin-bottom: 5rem;
+
+  .homeTitle {
+    /* color: white; */
+  }
 `;

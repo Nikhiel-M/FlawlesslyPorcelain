@@ -11,8 +11,8 @@ const Home = () => {
     <div id='home'>
     <Container>
       <GlobalStyles />
-    <Title>Flawlessly Porcelain</Title>
-    <h1>✨ Flawlessly Porcelain Night cream. Pharmacist-Formulated Brightening & Corrective Cream ✨ Reveal Radiance. Restore Confidence.</h1>
+    <Title className='homeTitle'>Flawlessly Porcelain</Title>
+    <h1 className='homeTitle'>✨ Flawlessly Porcelain Night cream. Pharmacist-Formulated Brightening & Corrective Cream ✨ Reveal Radiance. Restore Confidence.</h1>
     </Container>
     </div>
 
@@ -24,7 +24,7 @@ const Home = () => {
     <Information />
     <Pricing />
     </div>
-    
+
     </>
   )
 }
