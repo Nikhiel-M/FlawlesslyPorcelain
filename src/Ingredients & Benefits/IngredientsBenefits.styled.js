@@ -20,7 +20,7 @@
   padding: 10px;
 
   .GridItem {
-    background-color: pink;
+    background-color: ${(props) => props.theme.colors.pink};
     padding: 5rem 1rem ;
     margin: 1rem;
 

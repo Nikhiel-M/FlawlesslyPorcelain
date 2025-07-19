@@ -18,6 +18,6 @@ export const Container = styled.div`
   margin-bottom: 5rem;
 
   .homeTitle {
-    /* color: white; */
+    color: orange;
   }
 `;

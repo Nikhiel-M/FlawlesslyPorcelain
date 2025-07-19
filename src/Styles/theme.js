@@ -6,6 +6,7 @@ export const Theme = {
 
         default: "#BCC1C7",
 
+        pink: "#ffc0cb",
         red: "#FF2329",
         blue: "#0030f3",
         gray: "#828282",

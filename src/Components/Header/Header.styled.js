@@ -10,7 +10,7 @@ export const HeaderWrapper = styled.header`
   top: 0;
   right: 0;
   left: 0;
-  background-color: white;
+  background-color: ${(props) => props.theme.colors.primary};
   border-bottom: black solid 1px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   overflow: hidden;
