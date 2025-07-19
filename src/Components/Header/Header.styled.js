@@ -60,7 +60,6 @@ export const HeaderWrapper = styled.header`
   }
 
   @media (max-width: 780px) {
-    padding: 0 0.5rem;
     display: flex;
     flex-direction: row;
     outline: none;
