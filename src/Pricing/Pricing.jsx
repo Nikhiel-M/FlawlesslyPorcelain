@@ -14,7 +14,7 @@ const Pricing = () => {
         📦 Limited quantities available. Order now and see the visible
         difference in as little as 4 to 6 weeks.
       </Subtitle>
-      <Subtitle>R280 excluding courier fees.</Subtitle>
+      <Subtitle>R299 excluding courier fees.</Subtitle>
 
       <Subtitle className="contact">Contatct us on Whatsapp </Subtitle>
       <a
