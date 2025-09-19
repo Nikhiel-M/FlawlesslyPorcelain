@@ -15,7 +15,7 @@ const Pricing = () => {
         difference in as little as 4 to 6 weeks.
       </Subtitle>
       <Subtitle>R350 excluding courier fees.</Subtitle>
-
+      <Subtitle> Founded by Akhilesh Maharaj B.Pharm PR60850-since 2022. </Subtitle>
       <Subtitle className="contact">Contatct us on Whatsapp </Subtitle>
       <a
   href="https://wa.me/27760189613/?text=I'm%20interested%20in%20your%20product%20for%20sale."
