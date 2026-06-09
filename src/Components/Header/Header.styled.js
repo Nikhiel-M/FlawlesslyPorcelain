@@ -4,16 +4,18 @@ export const HeaderWrapper = styled.header`
   display: flex;
   min-height: 5.25rem;
   width: 100%;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1.25rem;
   justify-content: space-between;
   align-items: center;
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
-  background-color: ${(props) => props.theme.colors.primary};
-  border-bottom: black solid 1px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 10;
+  background-color: rgba(250, 247, 242, 0.78);
+  border-bottom: 1px solid rgba(207, 143, 59, 0.2);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 12px 28px rgba(32, 33, 36, 0.08);
   overflow: hidden;
   outline: none;
 
@@ -25,6 +27,8 @@ export const HeaderWrapper = styled.header`
     display: flex;
     align-self: center;
     cursor: pointer;
+    height:auto;
+    width: 30rem;
   }
 
   .logo img {
@@ -52,12 +56,16 @@ export const HeaderWrapper = styled.header`
     font-weight: 400;
     font-style: normal;
     text-decoration: none;
+    padding: 0.3rem 0.6rem;
+    letter-spacing: 0.01em;
+    border-radius: 999px;
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
   }
 
   .nav-links > li > a:hover {
-    color: ${(props) => props.theme.colors.textLight};
-    text-decoration: underline;
-    transition: color 0.2s ease-in-out;
+    color: ${(props) => props.theme.colors.accent};
+    background-color: rgba(207, 143, 59, 0.12);
+    transform: translateY(-1px);
   }
 
   @media (max-width: 780px) {

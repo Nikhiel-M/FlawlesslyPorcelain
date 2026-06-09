@@ -5,11 +5,14 @@ export const Container = styled.div`
  justify-content: center;
  align-items: center;
  flex-direction: column;
-  width: 100%;
-  background-color: ${(props) => props.theme.colors.primary};
-  padding: 0 2rem;
+  width: min(860px, calc(100% - 2.5rem));
+  margin: 0 auto 4.5rem;
+  border-radius: 24px;
+  border: 1px solid rgba(207, 143, 59, 0.28);
+  background: linear-gradient(180deg, #fffdf8 0%, #fff3e3 100%);
+  box-shadow: 0 20px 36px rgba(94, 60, 22, 0.12);
+  padding: 2.2rem 2rem;
   text-align: center;
-  margin-bottom: 5rem;
 
   .whatsapp{
     font-size: clamp(2.75rem, 10vw, 4rem);
@@ -34,6 +37,7 @@ export const Container = styled.div`
   }
 
   @media (max-width: 480px) {
-    padding: 0 0.85rem;
+    width: calc(100% - 1.2rem);
+    padding: 1.6rem 0.85rem;
   }
   `

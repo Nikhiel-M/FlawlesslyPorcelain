@@ -1,6 +1,6 @@
 export const Theme = {
     colors: {
-        primary: "#ffffff",
+        primary: "#faf7f2",
         secondary: "#202124",
         tertiary: "#3D3D3D",
 
@@ -16,6 +16,10 @@ export const Theme = {
         yellow: "#f9c811",
         
         text: "#202124",
+        surface: "#fffdf9",
+        card: "#fff6ec",
+        accent: "#cf8f3b",
+        accentSoft: "#f3d7b0",
         
         textLight: "#fad839",
     },

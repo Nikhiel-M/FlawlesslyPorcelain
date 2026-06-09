@@ -23,8 +23,18 @@ import { createGlobalStyle } from "styled-components";
 
  body {
   background-color: ${(props) => props.theme.colors.primary };
+  color: ${(props) => props.theme.colors.text};
   overflow-x: hidden;
   width: 100%;
+  line-height: 1.45;
+ }
+
+ a {
+  color: inherit;
+ }
+
+ img {
+  max-width: 100%;
  }
 
  html {

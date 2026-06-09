@@ -1,5 +1,5 @@
 import { HeaderWrapper } from "./Header.styled";
-import logo from "../../Assets/Flawlessly-porclien-cut.jpg";
+import logo from "../../Assets/Flawlessly-porclien-cut-Photoroom.png";
 
 const Header = () => {
   return (
