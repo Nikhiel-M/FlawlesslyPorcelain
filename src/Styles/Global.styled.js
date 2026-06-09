@@ -7,11 +7,14 @@ import { createGlobalStyle } from "styled-components";
    padding: 0;
    font-family: "Newsreader", serif;
    font-weight: 300;
-   /* change font weight to 500 */
    font-style: normal;
-   overflow-x: hidden;
    outline: none;
    
+ }
+
+ *::before,
+ *::after {
+   box-sizing: border-box;
  }
 
  .gooey-selected {
@@ -20,10 +23,13 @@ import { createGlobalStyle } from "styled-components";
 
  body {
   background-color: ${(props) => props.theme.colors.primary };
+  overflow-x: hidden;
+  width: 100%;
  }
 
  html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 `;
 

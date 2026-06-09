@@ -6,29 +6,35 @@
  justify-content: center;
  align-items: center;
  flex-direction: column;
-  width: 100vw;
+  width: 100%;
   background-color: ${(props) => props.theme.colors.primary};
   padding: 0 2rem;
   text-align: center;
   margin-bottom: 5rem;
+
+  @media (max-width: 480px) {
+    padding: 0 0.85rem;
+  }
   `
 
  export const GridContainer = styled.div`
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   background-color: ${(props) => props.theme.colors.primary};
-  padding: 10px;
+  padding: 0.75rem;
+  gap: 1rem;
 
   .GridItem {
     background-color: ${(props) => props.theme.colors.pink};
-    padding: 5rem 1rem ;
-    margin: 1rem;
+    padding: 2rem 1rem;
+    margin: 0;
 
   }
 
     @media (max-width: 780px) {
     grid-template-columns: 1fr 1fr;
     .GridItem {
+      padding: 1.4rem 0.85rem;
     }
   }
 

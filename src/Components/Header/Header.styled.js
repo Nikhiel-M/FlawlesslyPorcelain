@@ -2,10 +2,11 @@ import styled from "styled-components";
 
 export const HeaderWrapper = styled.header`
   display: flex;
-  height: 15vh;
+  min-height: 5.25rem;
   width: 100%;
-  padding: 0 1rem;
+  padding: 0.5rem 1rem;
   justify-content: space-between;
+  align-items: center;
   position: fixed;
   top: 0;
   right: 0;
@@ -27,7 +28,7 @@ export const HeaderWrapper = styled.header`
   }
 
   .logo img {
-    height: 8rem;
+    height: clamp(3.5rem, 8vw, 6rem);
     width: auto;
   }
 
@@ -40,7 +41,7 @@ export const HeaderWrapper = styled.header`
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    font-size: 2rem;
+    font-size: clamp(1rem, 2.2vw, 1.7rem);
     color: ${(props) => props.theme.colors.text};
     cursor: pointer;
   }
@@ -60,10 +61,8 @@ export const HeaderWrapper = styled.header`
   }
 
   @media (max-width: 780px) {
-    display: flex;
-    flex-direction: row;
-    outline: none;
-    padding: 0;
+    padding: 0.4rem 0.75rem;
+    min-height: 4.75rem;
 
 
     .gooey-selected {
@@ -71,39 +70,34 @@ export const HeaderWrapper = styled.header`
     }
 
     .nav-links {
-      display: flex;
-      flex-direction: row;
-      font-size: 1.4rem;
-      gap: 0.7rem;
+      font-size: 1rem;
+      gap: 0.65rem;
      
     }
 
     .logo img {
-      height: 6rem;
+      height: 3.7rem;
       width: auto;
     }
   }
 
   @media (max-width: 480px) {
-    display: flex;
-    flex-direction: row;
-    outline: none;
-    padding: 0;
+    padding: 0.4rem 0.6rem;
+    min-height: 4.5rem;
 
     .gooey-selected {
       -webkit-tap-highlight-color: transparent;
     }
 
     .nav-links {
-      display: flex;
-      flex-direction: row;
-      font-size: 0.9rem;
-      gap: 0;
-      margin-left: 0.4rem;
+      font-size: 0.82rem;
+      gap: 0.4rem;
+      margin-left: 0;
+      text-align: right;
     }
 
     .logo img {
-      height: 5rem;
+      height: 3.2rem;
       width: auto;
     }
   }
