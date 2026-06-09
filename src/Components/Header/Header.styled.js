@@ -27,8 +27,10 @@ export const HeaderWrapper = styled.header`
     display: flex;
     align-self: center;
     cursor: pointer;
-    height:auto;
-    width: 30rem;
+    height: auto;
+    width: auto;
+    max-width: 58vw;
+    flex: 0 1 auto;
   }
 
   .logo img {
@@ -38,6 +40,9 @@ export const HeaderWrapper = styled.header`
 
   .nav {
     display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    min-width: 0;
   }
   .nav-links {
     display: flex;
@@ -48,6 +53,7 @@ export const HeaderWrapper = styled.header`
     font-size: clamp(1rem, 2.2vw, 1.7rem);
     color: ${(props) => props.theme.colors.text};
     cursor: pointer;
+    min-width: 0;
   }
 
   .nav-links > li > a {
@@ -60,6 +66,7 @@ export const HeaderWrapper = styled.header`
     letter-spacing: 0.01em;
     border-radius: 999px;
     transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+    white-space: nowrap;
   }
 
   .nav-links > li > a:hover {
@@ -69,7 +76,7 @@ export const HeaderWrapper = styled.header`
   }
 
   @media (max-width: 780px) {
-    padding: 0.4rem 0.75rem;
+    padding: 0.4rem 0.5rem;
     min-height: 4.75rem;
 
 
@@ -79,8 +86,16 @@ export const HeaderWrapper = styled.header`
 
     .nav-links {
       font-size: 1rem;
-      gap: 0.65rem;
+      gap: 0.45rem;
      
+    }
+
+    .nav-links > li > a {
+      padding: 0.2rem 0.4rem;
+    }
+
+    .logo {
+      max-width: 52vw;
     }
 
     .logo img {
@@ -98,10 +113,18 @@ export const HeaderWrapper = styled.header`
     }
 
     .nav-links {
-      font-size: 0.82rem;
-      gap: 0.4rem;
+      font-size: 0.74rem;
+      gap: 0.2rem;
       margin-left: 0;
       text-align: right;
+    }
+
+    .nav-links > li > a {
+      padding: 0.18rem 0.26rem;
+    }
+
+    .logo {
+      max-width: 48vw;
     }
 
     .logo img {

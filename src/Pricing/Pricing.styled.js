@@ -13,6 +13,22 @@ export const Container = styled.div`
   box-shadow: 0 20px 36px rgba(94, 60, 22, 0.12);
   padding: 2.2rem 2rem;
   text-align: center;
+  overflow: hidden;
+
+  h1,
+  h2 {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  h1 {
+    font-size: clamp(1.35rem, 4.4vw, 2.45rem);
+  }
+
+  h2 {
+    font-size: clamp(0.95rem, 3.6vw, 1.25rem);
+    line-height: 1.6;
+  }
 
   .whatsapp{
     font-size: clamp(2.75rem, 10vw, 4rem);
@@ -22,8 +38,7 @@ export const Container = styled.div`
   }
 
   .contact{
-    display: flex;
-    align-items: center;
+    display: block;
     margin-top: 1rem;
   }
 
@@ -38,6 +53,11 @@ export const Container = styled.div`
 
   @media (max-width: 480px) {
     width: calc(100% - 1.2rem);
-    padding: 1.6rem 0.85rem;
+    padding: 1.45rem 0.85rem;
+    border-radius: 18px;
+
+    .whatsapp {
+      margin-top: 0.3rem;
+    }
   }
   `
